@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lmmod",
+  "name": "lmmod",
+  "description": "AdNecrias' test mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AdNecrias"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "lmmod.logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

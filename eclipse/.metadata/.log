@@ -32,3 +32,558 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-15 20:45:27.453
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=697, childStart=696, element==Minecraft/C:\/Users\/Rafael\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.3.1403-1.7.10\/forgeSrc-1.7.10-10.13.3.1403-1.7.10.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:29.179
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:29.179
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:32.183
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:32.183
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:35.188
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:35.188
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:38.242
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:38.242
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:41.295
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:41.295
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:44.301
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:44.301
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:47.357
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:47.357
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:50.361
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:50.361
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:53.365
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:53.365
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:56.369
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:56.369
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:45:59.373
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:45:59.373
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:02.379
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:02.379
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:05.385
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:05.385
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:08.389
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:08.389
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:11.392
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:11.392
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:14.397
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:14.397
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:17.402
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:17.402
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:20.422
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:20.422
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:23.476
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:23.476
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:26.481
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:26.481
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:29.484
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:29.484
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:32.490
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:32.490
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:35.495
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:35.495
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:38.498
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:38.498
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:47.563
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:47.563
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:50.616
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:50.616
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:53.619
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:53.619
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:56.674
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:56.674
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:46:59.729
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:46:59.729
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:02.782
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:02.782
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:05.835
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:05.835
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:08.838
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:08.838
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:11.842
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:11.842
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:14.845
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:14.845
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:17.851
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:17.851
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:20.857
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:20.857
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:23.914
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:23.914
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:26.920
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:26.920
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:29.972
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:29.972
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:32.978
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:32.978
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:36.033
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:36.033
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:39.039
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:39.039
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:42.054
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:42.054
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:45.107
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:45.107
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:48.161
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:48.161
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:51.165
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:51.165
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:54.169
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:54.169
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:47:57.225
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:47:57.225
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:00.279
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:00.279
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:03.284
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:03.284
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:06.287
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:06.287
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:09.290
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:09.290
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:12.293
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:12.293
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:15.347
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:15.347
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:18.377
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:18.377
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:21.380
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:21.380
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:24.435
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:24.435
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:27.487
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:27.487
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:30.492
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:30.492
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:33.546
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:33.546
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:36.551
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:36.551
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:39.554
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:39.554
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:42.607
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:42.607
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:45.612
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:45.612
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:48.618
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:48.618
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:51.622
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:51.622
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:54.676
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:54.676
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:48:57.730
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:48:57.730
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:00.783
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:00.783
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:03.789
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:03.789
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:06.841
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:06.841
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:09.845
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:09.845
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:12.849
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:12.849
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:15.858
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:15.858
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:18.862
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:18.862
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:21.917
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:21.917
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:24.922
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:24.922
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:27.974
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:27.974
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:31.029
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:31.029
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:34.035
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:34.035
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:37.089
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:37.089
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:40.142
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:40.142
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:43.183
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:43.183
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:46.235
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:46.235
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:49.242
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:49.242
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:52.246
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:52.246
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:55.250
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:55.250
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:49:58.305
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:49:58.305
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:50:01.358
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:50:01.358
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:50:04.364
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:50:04.364
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:50:07.417
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:50:07.417
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.core.resources 4 1 2015-05-15 20:50:10.423
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2015-05-15 20:50:10.423
+!MESSAGE Problem occurred in auto-refresh native code: 5.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-15 20:50:31.996
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=697, childStart=696, element==Minecraft/C:\/Users\/Rafael\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.3.1403-1.7.10\/forgeSrc-1.7.10-10.13.3.1403-1.7.10.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

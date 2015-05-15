@@ -1,0 +1,35 @@
+package com.adnecrias.lmmod;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = "lmmod", name = "lmmod", version = "1.7.10-1.0")
+public class lmmod {
+	
+	/*
+	 * Network handling, mod config, iniitalize items and blocks
+	 * */
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		
+	}
+	
+	/*
+	 * Register GUI, tile entities, Crafting recipeis
+	 */
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent event) {
+		
+	}
+	
+	/*
+	 * after other mods
+	 */
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+}
