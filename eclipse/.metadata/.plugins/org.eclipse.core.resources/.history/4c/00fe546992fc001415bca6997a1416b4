@@ -1,0 +1,21 @@
+package com.adnecrias.lmmod.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	
+	public static void init(File configFile) {
+		Configuration configuration = new Configuration(configFile);
+		
+		try {
+			//Load the configuration
+			configuration.load();
+			//Read configuration file.
+			
+		} catch(Exception e) {
+			//Log the Exception
+		}
+	}
+}
