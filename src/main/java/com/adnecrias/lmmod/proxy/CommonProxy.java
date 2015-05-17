@@ -1,5 +1,5 @@
 package com.adnecrias.lmmod.proxy;
 
-public class CommonProxy implements Proxy {
-
+public abstract class CommonProxy implements IProxy {
+	
 }

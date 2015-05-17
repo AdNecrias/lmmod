@@ -1,0 +1,9 @@
+package com.adnecrias.lmmod.utility;
+
+public class LogHelper {
+
+	public static void log(Level logLevel, Object object) {
+		
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.adnecrias.lmmod.reference;
+/*
+ * Common constants.
+ * */
+public class Reference {
+	public static final String MOD_ID = "lmmod";
+	public static final String MOD_ID = "lmmod";
+}
