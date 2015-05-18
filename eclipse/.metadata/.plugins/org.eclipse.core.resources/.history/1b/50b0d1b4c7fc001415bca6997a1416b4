@@ -1,0 +1,15 @@
+package com.adnecrias.lmmod.item;
+
+import net.minecraft.item.Item;
+
+public class Itemllmod extends Item {
+	
+	public Itemllmod() {
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName() {
+		
+	}
+}

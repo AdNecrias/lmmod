@@ -1,0 +1,21 @@
+package com.adnecrias.lmmod.item;
+
+import com.adnecrias.lmmod.reference.Reference;
+
+import net.minecraft.item.Item;
+
+public class Itemllmod extends Item {
+	
+	public Itemllmod() {
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName() {
+		return String.format(ïtem.%s%s, Reference.MOD_ID.toLowerCase(), getUnwra)
+	}
+	
+	public String getUnwrappedUnlocalizedName(String unlocalizedName) {
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	}
+}

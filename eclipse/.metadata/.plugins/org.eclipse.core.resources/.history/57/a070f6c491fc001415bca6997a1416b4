@@ -1,7 +1,0 @@
-package com.adnecrias.lmmod.configuration;
-
-public class ConfigurationHandler {
-	public static void init(File configFile) {
-		
-	}
-}

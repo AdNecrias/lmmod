@@ -22,7 +22,7 @@ group= "com.adnecrias.lmmod" // http://maven.apache.org/guides/mini/guide-naming
 archivesBaseName = "lmmod"
 
 minecraft {
-    version = "1.7.10-10.13.3.1403-1.7.10"
+    version = "1.7.10-10.13.3.1408-1.7.10"
     runDir = "eclipse"
 }
 

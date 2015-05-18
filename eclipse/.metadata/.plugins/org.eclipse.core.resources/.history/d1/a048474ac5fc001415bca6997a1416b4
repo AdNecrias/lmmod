@@ -1,0 +1,5 @@
+package com.adnecrias.lmmod.item;
+
+public class lmmodItem extends Item{
+
+}

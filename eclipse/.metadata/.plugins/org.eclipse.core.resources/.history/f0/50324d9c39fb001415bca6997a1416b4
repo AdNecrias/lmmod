@@ -1,6 +1,0 @@
-package com.adnecrias.lmmod;
-
-@Mod()
-public class lmmod {
-
-}

@@ -1,0 +1,7 @@
+package com.adnecrias.lmmod;
+
+import cpw.mods.fml.client.IModGuiFactory;
+
+public class GUIFactory implements IModGuiFactory{
+
+}
