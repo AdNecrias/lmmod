@@ -1,2 +1,0 @@
-# lmmod
-testmod

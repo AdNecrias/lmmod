@@ -1,7 +1,0 @@
-package com.adnecrias.lmmod.client.gui;
-
-import cpw.mods.fml.client.config.GuiConfig;
-
-public class GUIConfig extends GuiConfig{
-
-}

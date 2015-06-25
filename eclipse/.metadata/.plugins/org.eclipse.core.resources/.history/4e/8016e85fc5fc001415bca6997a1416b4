@@ -1,7 +1,0 @@
-package com.adnecrias.lmmod.item;
-
-import net.minecraft.item.Item;
-
-public class lmmodItem extends Item {
-	
-}

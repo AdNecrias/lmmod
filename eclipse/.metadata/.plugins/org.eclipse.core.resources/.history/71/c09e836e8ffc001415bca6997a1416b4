@@ -1,5 +1,0 @@
-package com.adnecrias.lmmod.reference;
-
-public class Color {
-	public static final Color red = new Color("");
-}

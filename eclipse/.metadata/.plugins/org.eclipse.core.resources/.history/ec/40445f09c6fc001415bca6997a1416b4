@@ -1,8 +1,0 @@
-package com.adnecrias.lmmod.init;
-
-import com.adnecrias.lmmod.item.ItemMapleLeaf;
-import com.adnecrias.lmmod.item.Itemllmod;
-
-public class ModItems {
-	public static final Itemllmod mapleleaf = new ItemMapleLeaf();
-}
